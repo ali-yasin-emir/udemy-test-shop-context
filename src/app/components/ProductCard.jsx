@@ -5,7 +5,7 @@ import { useContext } from "react";
 
 const ProductCard = ({ id, image, title, description, price }) => {
 
-    const {addToCart, products} = useContext(CartContext)
+    const {addToCart} = useContext(CartContext)
 
   return (
     <div key={id} className="flex flex-col bg-orange-300 w-[350px] h-[600px]">
